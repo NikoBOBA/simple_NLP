@@ -1,5 +1,5 @@
 from transformers import pipeline
-ner = pipeline("ner", grouped_entities=True)
+ner = pipeline("ner", grouped_entities=True) #token classification
 
 text = " Nikola was born in Bulgaria, in 2005."
 results = ner(text)

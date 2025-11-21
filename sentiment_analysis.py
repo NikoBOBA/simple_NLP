@@ -1,6 +1,6 @@
 from transformers import pipeline
 
-classifier = pipeline("sentiment-analysis")
+classifier = pipeline("sentiment-analysis") #text classification
 
 text1 = "I love learning about AI!"
 result_1= classifier(text1)
